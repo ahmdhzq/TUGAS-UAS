@@ -1,0 +1,90 @@
+#hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--mainColorWhite);
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; 
+}
+
+
+.hero-image img {
+    width: 100%;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.des {
+    position: absolute;
+    margin-top: 50vh;
+    font-weight: 300;
+    line-height: 0.7;
+}
+
+.gambar {
+    height: 70vh;
+}
+
+.gambar img{
+    width: 100%;
+}
+
+.recom {
+    margin: 1.7rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-title {
+    font-size: 1.2rem;
+}
+
+/* =========== Media Queries (Medium Devices) ========== */
+@media screen and (max-width: 1024px) {
+
+    .gambar {
+        height: auto;
+    }
+    .category-items {
+        flex-wrap: wrap;
+    }
+    .des {
+        margin-top: 15vh;
+    }
+}
+
+/* =========== Media Queries (Small Devices) ========== */
+@media screen and (max-width: 600px) {
+    .hero-image {
+        margin-top: 8vh;
+    }
+    .des {
+        margin-top: 9vh;
+    }
+    .des h2 {
+        font-size: 20px;
+    }
+    .des h3 {
+        font-size: 12px;
+        margin-top: -2px;
+    }
+    .category-item img {
+        width: 8rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+}
